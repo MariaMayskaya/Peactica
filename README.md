@@ -1,4 +1,5 @@
-# Web Development Course Materials
+# Оператор ЭВМ. WEB-разработка.
+
 
 ## HTML - Язык разметки текста
 
