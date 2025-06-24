@@ -168,11 +168,11 @@ COLSPAN, ROWSPAN: Объединение ячеек.
 
 ### Лекция 1: Введение в Web
 ## О чем курс?
--Фундаментальный web
--Advanced javascript
--Клиентская разработка (vanilla js)
--Серверная разработка (node.js)
--Real-time messages (polling, websocket)
+- Фундаментальный web
+- Advanced javascript
+- Клиентская разработка (vanilla js)
+- Серверная разработка (node.js)
+- Real-time messages (polling, websocket)
 Лекции
 Введение в Web
 Основы JavaScript
