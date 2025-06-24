@@ -277,43 +277,57 @@ Function Expression vs Function Declaration
 * * const sum2 = (a, b) => { ... return result; };
 
 Объекты
-• https://learn.javascript.ru/object-basics • Объект - структура "ключ - значение". • Создание: * let user = new Object(); (конструктор) * let user = {}; (литерал)
+* https://learn.javascript.ru/object-basics
+*  Объект - структура "ключ - значение".
+*   Создание: * let user = new Object(); (конструктор) * let user = {}; (литерал)
 
 Доступ к полям объекта
-• const user = { name: "John", age: 30 }; • console.log(user.name); • console.log(user["age"]);
+* const user = { name: "John", age: 30 };
+* console.log(user.name);
+*  console.log(user["age"]);
 
 Присваивание полей. Вычисляемые свойства
-• user.isAdmin = true; • const key = 'age'; user[key] = 18;
+* user.isAdmin = true;
+*   const key = 'age'; user[key] = 18;
 
 Сравнение объектов
-• Объекты сравниваются по ссылке.
+*  Объекты сравниваются по ссылке.
 
 this или магическая область видимости
-• this внутри функции - это объект "перед точкой".
+* this внутри функции - это объект "перед точкой".
 
 Псевдо-ООП
-• Использование функций-конструкторов для создания объектов.
+*  Использование функций-конструкторов для создания объектов.
 
 Типы данных
-• https://learn.javascript.ru/data-types • Примитивы: string, number, boolean, symbol, null, undefined, bigint
+*  https://learn.javascript.ru/data-types
+*   Примитивы: string, number, boolean, symbol, null, undefined, bigint
 
 Примитив как объект
-• Примитивы остаются примитивами. • Для доступа к методу создается "объект-обертка", который предоставляет нужную функциональность, а потом удаляется. • Объекты обертки примитивов: String, Number, Boolean, Symbol, BigInt
+*  Примитивы остаются примитивами.
+*   Для доступа к методу создается "объект-обертка", который предоставляет нужную функциональность, а потом удаляется.
+*    Объекты обертки примитивов: String, Number, Boolean, Symbol, BigInt
 
 Числа
-• Разные формы записи чисел (десятичная, шестнадцатеричная и т.д.)
+*  Разные формы записи чисел (десятичная, шестнадцатеричная и т.д.)
 
 Числа (методы)
-• num.toString(base) - число в строку • num.toFixed(digits) - округление в меньшую сторону
+*  num.toString(base) - число в строку • num.toFixed(digits) - округление в меньшую сторону
 
 Числа (округление)
-• Math.floor(num) - округление в меньшую сторону • Math.ceil(num) - округление в большую сторону • Math.round(num) - округление до ближайшего целого • Math.trunc(num) - удаление дробной части
+*  Math.floor(num) - округление в меньшую сторону
+*  Math.ceil(num) - округление в большую сторону
+*  Math.round(num) - округление до ближайшего целого
+*  Math.trunc(num) - удаление дробной части
 
 Числа (неточные выражения)
-• Слишком большие числа, сложение дробных чисел, потеря точности.
+*  Слишком большие числа, сложение дробных чисел, потеря точности.
 
 Числа (проверки)
-• isNaN(value) - проверка на NaN • isFinite(value) - преобразование в число, проверка что это число • Number.isNaN(value) - строгая проверка isNaN • Number.isFinite(value) - строгая проверка isFinite
+*  isNaN(value) - проверка на NaN
+*  isFinite(value) - преобразование в число, проверка что это число
+*   Number.isNaN(value) - строгая проверка isNa
+*   Number.isFinite(value) - строгая проверка isFinite
 
 Числа (преобразование)
 • +value или Number(value) - преобразование в число • parseInt(value) - преобразование в число (только число из строки) • parseFloat(value) - преобразование в число (только число из строки)
