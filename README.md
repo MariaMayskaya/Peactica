@@ -303,7 +303,6 @@ this или магическая область видимости
 *  Использование функций-конструкторов для создания объектов.
 
 Типы данных
-*  https://learn.javascript.ru/data-types
 *   Примитивы: string, number, boolean, symbol, null, undefined, bigint
 
 Примитив как объект
