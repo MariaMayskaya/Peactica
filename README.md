@@ -2,8 +2,6 @@
 
 
 ## HTML - Язык разметки текста
-
-### Что такое HTML?
 HTML (HyperText Markup Language) - язык гипертекстовой разметки. Это язык разметки электронных документов, который указывает браузерам, как представлять информацию.
 
 ### Создание HTML документа
@@ -236,14 +234,15 @@ COLSPAN, ROWSPAN: Объединение ячеек.
     *   `5xx` - ошибка сервера
 
 ### HTML
-*   Подробнее: [http://htmlbook.ru/html](http://htmlbook.ru/html)
 
 ### DOCTYPE
 *   Указание типа содержимого.
     *   HTML 5: `<!DOCTYPE html>`
+
+
+      
 ### JavaScript
-Основы JavaScript
-• https://learn.javascript.ru/first-steps
+
 
 Переменные
 *var, let, const 
@@ -465,8 +464,6 @@ JSON (parse)
 
 
 ## Основы JavaScript
-
-•   [https://learn.javascript.ru/first-steps](https://learn.javascript.ru/first-steps)
 
 ### Переменные
 
