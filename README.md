@@ -279,7 +279,6 @@ Function Expression vs Function Declaration
 * * const sum2 = (a, b) => { ... return result; };
 
 Объекты
-* https://learn.javascript.ru/object-basics
 *  Объект - структура "ключ - значение".
 *   Создание: * let user = new Object(); (конструктор) * let user = {}; (литерал)
 
